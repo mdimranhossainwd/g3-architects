@@ -14,6 +14,18 @@
   .banner-content h2 {
     font-size: 30px;
   }
+
+  .features-area {
+    flex-direction: column;
+  }
+
+  .features-img {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .features-content {
+    padding: 20px;
+  }
 }
 
 /* MEDIUM-DEVICE-RESPONSIVE  */
@@ -30,5 +42,13 @@
 
   .banner-content h2 {
     font-size: 35px;
+  }
+
+  .features-area {
+    flex-direction: column;
+  }
+
+  .features-content {
+    margin-top: 50px;
   }
 }

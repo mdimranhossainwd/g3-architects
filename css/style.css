@@ -85,3 +85,41 @@ header {
 .banner-img img {
   width: 100%;
 }
+
+/* MAIN  */
+main {
+  max-width: 1140px;
+  margin: 90px auto;
+}
+
+/* FEATURES-AREA  */
+
+.features-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.features-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.features-content {
+  padding-left: 50px;
+}
+
+.features-content span {
+  color: #727272;
+  font-weight: 500;
+}
+
+.features-content .orange {
+  color: #ff900e;
+  font-weight: 700;
+}
+
+.features-content p {
+  margin-bottom: 25px;
+}
