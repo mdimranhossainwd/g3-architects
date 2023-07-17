@@ -15,7 +15,8 @@
     font-size: 30px;
   }
 
-  .features-area {
+  .features-area,
+  .count-area {
     flex-direction: column;
   }
 
@@ -25,6 +26,10 @@
 
   .features-content {
     padding: 20px;
+  }
+
+  .count-box {
+    margin: 20px 15px;
   }
 }
 
@@ -44,8 +49,17 @@
     font-size: 35px;
   }
 
-  .features-area {
+  .features-area,
+  .count-area {
     flex-direction: column;
+  }
+
+  .count-box {
+    margin: 20px 15px;
+  }
+
+  .common-content-heading {
+    padding-left: 20px;
   }
 
   .features-content {
